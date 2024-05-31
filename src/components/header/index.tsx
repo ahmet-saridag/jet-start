@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
+import SignOutButton from "@/components/signout-button";
 
 export default function Header() {
   // create a navbarlist
@@ -45,6 +46,7 @@ export default function Header() {
               </li>
             ))}
           </ul>
+          {/* <SignOutButton /> */}
         </div>
       </div>
     </section>

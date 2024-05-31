@@ -159,12 +159,10 @@ export default function Features() {
                     <ul className="space-y-1 flex flex-col gap-2">
                       {item.checkList.map((check, idx) => {
                         return (
-                          <>
-                            <li key={idx} className="flex items-center gap-2">
-                              <FaCheck className="text-xl text-primary" />
-                              {check.name}
-                            </li>
-                          </>
+                          <li key={idx} className="flex items-center gap-2">
+                            <FaCheck className="text-xl text-primary" />
+                            {check.name}
+                          </li>
                         );
                       })}
                     </ul>

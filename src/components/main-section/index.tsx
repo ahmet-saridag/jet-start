@@ -93,7 +93,7 @@ export default function MainSection() {
                 type="radio"
                 name="rating-2"
                 className="mask mask-star-2 bg-primary"
-                checked={true}
+                // checked={true}
               />
             </div>
             <div className="text-base text-base-content/80">
