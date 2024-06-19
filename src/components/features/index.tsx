@@ -16,32 +16,32 @@ export default function Features() {
   const featuresList: any = [
     {
       name: "Emails",
-      logo: <MdAlternateEmail className="text-3xl" />,
+      // logo: <MdAlternateEmail className="text-3xl" />,
     },
 
     {
       name: "Payments",
-      logo: <MdPayment className="text-3xl" />,
+      // logo: <MdPayment className="text-3xl" />,
     },
     {
       name: "Login",
-      logo: <FaRegUserCircle className="text-3xl" />,
+      // logo: <FaRegUserCircle className="text-3xl" />,
     },
     {
       name: "Databases",
-      logo: <BsDatabaseAdd className="text-3xl" />,
+      // logo: <BsDatabaseAdd className="text-3xl" />,
     },
     {
       name: "SEO",
-      logo: <MdOutlineScreenSearchDesktop className="text-3xl" />,
+      // logo: <MdOutlineScreenSearchDesktop className="text-3xl" />,
     },
     {
       name: "Styles",
-      logo: <PiPaintBrushDuotone className="text-3xl" />,
+      // logo: <PiPaintBrushDuotone className="text-3xl" />,
     },
     {
       name: "More",
-      logo: <CgMoreO className="text-3xl" />,
+      // logo: <CgMoreO className="text-3xl" />,
     },
   ];
 
@@ -139,7 +139,7 @@ export default function Features() {
                     : "flex flex-col items-center justify-center gap-3 select-none cursor-pointer p-2 duration-100 text-base-content/50"
                 }
               >
-                <span>{item.logo}</span>
+                {/* <span>{item.logo}</span> */}
                 <span className="font-medium text-sm">{item.name}</span>
               </span>
             );

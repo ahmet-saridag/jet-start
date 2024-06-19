@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
-import SignOutButton from "@/components/signout-button";
+import User from "@/components/user";
 
 export default function Header() {
   // create a navbarlist
@@ -36,7 +36,7 @@ export default function Header() {
         <div>
           <ul className="flex gap-10">
             {navbarList.map((item, idx) => (
-              <li className={idx > 1 ? "sm:block hidden" : ""} key={idx}>
+              <li className={idx > 0 ? "sm:block hidden" : ""} key={idx}>
                 <a
                   href={item.path}
                   className="hover:border-b-2 border-primary leading-6"
@@ -45,8 +45,8 @@ export default function Header() {
                 </a>
               </li>
             ))}
+               <User />
           </ul>
-          {/* <SignOutButton /> */}
         </div>
       </div>
     </section>

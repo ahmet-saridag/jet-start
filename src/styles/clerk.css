@@ -1,0 +1,59 @@
+.cl-signUp-start, .cl-signIn-start {
+  background: none;
+  box-shadow: none;
+  width: 35rem;
+}
+
+@media only screen and (max-width: 999px) {
+  .cl-signUp-start, .cl-signIn-start {
+    width: 100%;
+  }
+
+  .cl-socialButtonsBlockButton, .cl-formButtonPrimary {
+    padding: 5px !important;
+  }
+
+  .cl-input {
+    height: 2rem !important;
+    max-height: none;
+  }
+
+  .cl-headerTitle {
+    color: #cfcfcf;
+    font-size: 24px !important;
+  }
+}
+
+.cl-footer {
+  background: none;
+}
+
+.cl-headerTitle {
+  color: #cfcfcf;
+  font-size: 32px;
+}
+
+.cl-socialButtonsBlockButton {
+  background: #ffffff;
+  padding: 15px;
+}
+
+.cl-socialButtonsBlockButton:hover {
+  background: #ffffff;
+}
+
+.cl-formFieldLabel,
+.cl-dividerText,
+.cl-footerActionText,
+.cl-footerActionLink {
+  color: #cfcfcf;
+}
+
+.cl-input {
+  height: 3rem;
+  max-height: none;
+}
+
+.cl-formButtonPrimary {
+  padding: 15px;
+}
